@@ -15,3 +15,21 @@ align-items: center;
 .btn {
     margin-top: 30px;   
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.container::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+hr {
+width: 100%;
+}
+#row {
+    position: relative;
+    display: flex;
+}
