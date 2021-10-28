@@ -1,6 +1,7 @@
 .navbar {
     border-style: solid;
     border-width: 1.5px;
+    
  }
  h1 {
      margin: 30px;
@@ -25,4 +26,6 @@
  .row {
      margin-top: 50px;
  }
- 
+button {
+    display:flex;
+}
