@@ -31,5 +31,5 @@ width: 100%;
 }
 #row {
     position: relative;
-    display: flex;
+    display: inline-flex;
 }
