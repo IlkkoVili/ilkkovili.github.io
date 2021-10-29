@@ -15,63 +15,57 @@
 
 <body>
 
-    <div class="yläcontainer">
-        <div class="customrow">
-            <h1>Vili Ilkko</h1>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary me-md-2" type="button">Button</button>
-                <button class="btn btn-primary" type="button">Button</button>
-            </div>
-
-            <button>
-                <a href="wframe.html">Front Page</a>
-            </button>
+    <div class="position-relative">
+        <h1>Vili Ilkko</h1>
+        <div class="position-absolute bottom-0 end-0">
+            <a href="wframe.html" class="btn me-md-2" type="button">Front Page</a>
         </div>
     </div>
+
+
 
     <nav class="navbar navbar-light bg-light">
         <div class="container fluid">
-            <a class="navbar-brand" href="#">About</a>
+            <a class="navbar-brand" href="about.html">About</a>
             <a class="navbar-brand active" aria-current="page" href="work.html">Work</a>
-            <a class="navbar-brand" href="#">Contact</a>
+            <a class="navbar-brand" href="contact.html">Contact</a>
         </div>
     </nav>
 
-
-    <div class="container">
-        <div id="kuva">
-            <img src="stockimage.jpeg" class="img-fluid" alt="a man in a suit" width="200" height="150">
+    <div class="container overflow-hidden">
+        <div class="row gy-5">
+            <div class="col-6">
+                <div class="p-3 border bg-light"><img src="stockimage.jpeg" class="img-thumbnail"
+                        alt="man in a suit">Sample text
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-3 border bg-light"><img src="stockimage.jpeg" class="img-thumbnail"
+                        alt="man in a suit">Sample text
+                </div>
+            </div>
+            <div class="row gy-5">
+                <div class="col-6">
+                    <div class="p-3 border bg-light"><img src="stockimage.jpeg" class="img-thumbnail"
+                            alt="man in a suit">Sample text
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light"><img src="stockimage.jpeg" class="img-thumbnail"
+                            alt="man in a suit">Sample text
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <div class="container">
-        <div class="row">
-            <div class="col"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris ac nibh sit amet felis vehicula feugiat id a purus.
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris ac nibh sit amet felis vehicula feugiat id a purus.
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos.</div>
-
-
-            <div class="col"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris ac nibh sit amet felis vehicula feugiat id a purus.
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris ac nibh sit amet felis vehicula feugiat id a purus.
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos.</div>
-        </div>
-    </div>
 
     <hr>
 
     <footer class="bg-light text-center text-lg-start">
 
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 Copyright:
+            © 2021 Copyright:
             <a class="text-dark">Vili Ilkko</a>
         </div>
 
