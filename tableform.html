@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="tableform.css">
+    <meta charset="utf-8" />
+    <title>Tehtävä 10B</title>
+</head>
+
+<body>
+
+    <table>
+        <caption>Finnish persons</caption>
+        <thead>
+            <tr>
+                <th id="empty"></th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>D.o.B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Person Info</th>
+                <td>Vili</td>
+                <td>Ilkko</td>
+                <td>27.7.1996</td>
+            </tr>
+            <tr>
+                <td>Johanna</td>
+                <td>Tukiainen</td>
+                <td>29.7.1978</td>
+            </tr>
+            <tr>
+                <td>Sauli</td>
+                <td>Niinistö</td>
+                <td>24.8.1948</td>
+            </tr>
+            <tr>
+                <td>Tony</td>
+                <td>Halme</td>
+                <td>4.1.1963</td>
+            </tr>
+
+    </table>
+
+
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <p>
+        <fieldset>
+            <legend>Personal Information</legend>
+            First name: <input name="personal_firstname" type="text" tabindex="1" required>
+            <br>
+            Last name: <input name="personal_lastname" type="text" tabindex="2" required>
+            <br>
+            Email: <input name="personal_email" type="text" tabindex="3" required>
+            <br>
+            <input type="submit">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Text area for additional information</legend>
+            <textarea name="Additional information" rows="4" cols="80" tabindex="4">
+            </textarea>
+            <input type="submit">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Select your gender and age</legend>
+            <select name="dropdown">
+                <option value="Please select your gender" tabindex="5" selected>Please select your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br>
+            <input type="checkbox" name="7-18" value="on" tabindex="6">7-18
+            <br>
+            <input type="checkbox" name="19-45" value="on" tabindex="7">19-45
+            <br>
+            <input type="checkbox" name="46-66" value="on" tabindex="8">46-66
+            <br>
+            <input type="checkbox" name="67 and above" value="on" tabindex="9">67 and above
+            <br>
+            <input type="submit">
+
+        </fieldset>
+        <br>
+    </form>
+
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <fieldset>
+            <legend>Create a new user</legend>
+            Username: <input name="newuser_username" type="text" tabindex="10" required>
+            Password: <input type="password" name="text" tabindex="11" required>
+            Email: <input name="newuser_email" type="text" tabindex="12" required>
+            <input type="Submit" value="Add a new user">
+        </fieldset>
+
+
+    </form>
+
+
+
+</body>
+
+</html>
