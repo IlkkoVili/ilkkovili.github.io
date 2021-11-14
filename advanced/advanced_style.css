@@ -12,7 +12,7 @@
     border: 1px solid;
     padding: 5px;
     box-shadow:5px 10px red;
-    background-image: url(advanced/stockimage.jpeg);
+    background-image: url(../advanced/stockimage.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
