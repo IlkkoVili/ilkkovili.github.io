@@ -1,0 +1,31 @@
+@media only screen and (max-width: 800px) {
+    body  {   
+    background-color:chocolate;
+    color: yellow;
+
+}
+    p {
+        color: yellow;
+    }
+}
+#boksi {
+    border: 1px solid;
+    padding: 5px;
+    box-shadow:5px 10px red;
+    background-image: url("/Users/vili/Documents/GitHub/ilkkovili.github.io/stockimage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+h1 {
+    text-shadow: 2px 2px blue;
+}
+a {
+    color: black;
+    transition: 1s ease-in-out;
+}
+a:hover {
+    color: red;
+    transition: 1s ease-in-out;
+}
