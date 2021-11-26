@@ -37,8 +37,17 @@ img {
     transition: 0.3s;
   }
   
-  #orange:hover {opacity: 0.7;}
-  
+  #orange:hover {
+      opacity: 0.7;
+}
+#frontpage {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ #frontpage:hover {
+     opacity: 0.7;
+ }
   /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */

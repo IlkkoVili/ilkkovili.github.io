@@ -66,8 +66,13 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="p-3 border bg-light"><img src="images/frontpage.JPG" class="img-thumbnail"
-                                alt="Acceptance">Acceptance, Acrylic, 210 x 297 mm.
+                        <div class="p-3 border bg-light"><img id="frontpage" src="images/frontpage.JPG"
+                                class="img-thumbnail" alt="Acceptance">Acceptance, Acrylic, 210 x 297 mm.
+                        </div>
+                        <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
                         </div>
                     </div>
                 </div>
@@ -103,6 +108,7 @@
 
         // Get the image and insert it inside the modal - use its "alt" text as a caption
         var img = document.getElementById("orange");
+        var img = document.getElementById("frontpage");
         var modalImg = document.getElementById("img01");
         var captionText = document.getElementById("caption");
         img.onclick = function () {
