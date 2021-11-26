@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+footer {
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    position: static;
+    z-index: auto;
+    line-height: 24px;
+    width: 100%;
+}
+.mt-auto {
+    text-align: center;
+    margin-top: auto;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin: 30px;
+}
+img {
+    margin-top: 20px;
+}
+button {
+    margin-bottom: 10px;
+}
