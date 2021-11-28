@@ -179,5 +179,5 @@ img.hover-shadow {
   }
   :root {
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow: auto;
 }
