@@ -92,6 +92,7 @@ img {
     display: none;
     background-color: black;;
     text-align: center;
+    position: relative;
 }
 
 .cursor {
@@ -118,6 +119,7 @@ img {
 
 /* Position the "next button" to the right */
 .next {
+    margin-right: -25%;
     right: 0;
     border-radius: 3px 0 0 3px;
 }
@@ -133,7 +135,7 @@ img {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
-    position: absolute;
+    position: unset;
     top: 0;
 }
 .caption-container {
